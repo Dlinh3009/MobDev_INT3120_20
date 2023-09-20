@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/content1"
+        android:title="Content 1"
+        android:orderInCategory="100"
+        app:showAsAction="withText"
+        />
+    <item android:id="@+id/content2"
+        android:title="Content 2"
+        android:orderInCategory="100"
+        app:showAsAction="withText"
+        />
+</menu>
