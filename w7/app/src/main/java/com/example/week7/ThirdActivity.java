@@ -29,8 +29,12 @@ public class ThirdActivity extends AppCompatActivity {
         musicBtn = (Button) findViewById(R.id.music);
         Intent phoneIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:123-1234"));
 
-        Intent googleIntent = new Intent(Intent.ACTION_WEB_SEARCH);
-        googleIntent.putExtra(SearchManager.QUERY, "UET VNU");
+//        Intent googleIntent = new Intent(Intent.ACTION_WEB_SEARCH);
+//        googleIntent.putExtra(SearchManager.QUERY, "UET VNU");
+
+        Intent googleIntent = new Intent();
+        googleIntent.setAction(Intent.ACTION_VIEW);
+        googleIntent.setData(Uri.parse("http://google.com"));
 
         Intent sendIntent = new Intent();
         sendIntent.setAction(Intent.ACTION_SEND);
