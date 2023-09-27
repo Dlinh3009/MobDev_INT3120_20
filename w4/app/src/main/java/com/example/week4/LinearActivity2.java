@@ -18,7 +18,6 @@ public class LinearActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.linear_layout_2);
-
         toolbar = (Toolbar) findViewById(R.id.tool_bar2);
         setSupportActionBar(toolbar);
     }
